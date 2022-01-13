@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<h2>多文件上传1111</h2>
+<!--上传表单-start-->
+11111
+<form enctype="multipart/form-data" id="form" method="post">
+    <input name="file" type="file" multiple>
+    <input id="upload" type="button" value="上传">
+</form>
+<!--上传表单-end-->
+
+<button>n</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+    /**
+     * 上传按钮的点击事件
+     */
+    $("#upload").click(function () {
+        console.log(2222)
+        //因为new FormData(HtmlElement)，需要的是HtmlElement类型，如果利用jQuery获取，得到的是一个HtmlElement的集合，所以我们要取第一个值需要加下标$("#form")[0]
+        //JQuery 写法 $("#form")[0] 等价于原生JavaScript的 document.getElementById("form");
+        //既然这里已经导入了jQuery，那就用jQuery版本的写法
+        var formData = new FormData($("#form")[0]);
+        //发送 ajax 请求
+        $.ajax("/gettaskinfo", {
+            method: "POST",  //请求类型
+            data: formData,  //请求数据
+            async: false,    //不开启异步，异步就是在执行到$.ajax({})的时候新开一个线程执行请求，主线程继续往$.ajax({})函数下面执行，等到后端返回请求结果之后再触发success或者error函数
+            cache: false,    //不使用缓存，GET请求需要可以加，这里的POST请求本身就不会被缓存
+            contentType: false, //避免jQuery影响上面form表单设置的 enctype="multipart/form-data"类型，在F12中可以看到Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryW44OhJyyAytghmVT，"multipart/form-data"类型包含了boundary分界线作为多文件之间区分的边界
+            processData: false, //避免data数据转化为字符串，在application/x-www-form-urlencoded”
+            success: function (data) { //操作成功
+                alert(data);
+            },
+            error: function (result) {//操作失败
+                alert("添加失败");
+            }
+        });
+        return false;
+    })
+</script>
+
+<!--<script>-->
+<!--    /**-->
+<!--     * 上传按钮的点击事件-->
+<!--     */-->
+<!--    $("#upload").click(function () {-->
+<!--        console.log(2222)-->
+<!--        因为new FormData(HtmlElement)，需要的是HtmlElement类型，如果利用jQuery获取，得到的是一个HtmlElement的集合，所以我们要取第一个值需要加下标$("#form")[0]-->
+<!--        JQuery 写法 $("#form")[0] 等价于原生JavaScript的 document.getElementById("form");-->
+<!--        既然这里已经导入了jQuery，那就用jQuery版本的写法-->
+<!--        var formData = new FormData($("#form")[0]);-->
+<!--        //发送 ajax 请求-->
+<!--        $.ajax("/uploadVideo2", {-->
+<!--            method: "POST",  //请求类型-->
+<!--            data: formData,  //请求数据-->
+<!--            async: false,    //不开启异步，异步就是在执行到$.ajax({})的时候新开一个线程执行请求，主线程继续往$.ajax({})函数下面执行，等到后端返回请求结果之后再触发success或者error函数-->
+<!--            cache: false,    //不使用缓存，GET请求需要可以加，这里的POST请求本身就不会被缓存-->
+<!--            contentType: false, //避免jQuery影响上面form表单设置的 enctype="multipart/form-data"类型，在F12中可以看到Content-Type: multipart/form-data; boundary=&#45;&#45;&#45;&#45;WebKitFormBoundaryW44OhJyyAytghmVT，"multipart/form-data"类型包含了boundary分界线作为多文件之间区分的边界-->
+<!--            processData: false, //避免data数据转化为字符串，在application/x-www-form-urlencoded”-->
+<!--            success: function (data) { //操作成功-->
+<!--                alert(data);-->
+<!--            },-->
+<!--            error: function (result) {//操作失败-->
+<!--                alert("添加失败");-->
+<!--            }-->
+<!--        });-->
+
+
+
+<!--        return false;-->
+<!--    })-->
+<!--</script>-->
+
+
+
+</html>
