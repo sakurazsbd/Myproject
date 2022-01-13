@@ -1,0 +1,7 @@
+[WARN ] 2022-01-13 20:54:01 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysLogMapper' and 'com.example.myproject.mapper.aoplog.SysLogMapper' mapperInterface. Bean already defined with the same name!
+[WARN ] 2022-01-13 20:54:01 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'jonMapper' and 'com.example.myproject.mapper.jonMapper' mapperInterface. Bean already defined with the same name!
+[WARN ] 2022-01-13 20:54:01 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.myproject.mapper]' package. Please check your configuration.
+[WARN ] 2022-01-13 20:54:01 [http-nio-9099-exec-9] c.e.m.controller.IndexController - 日志输出 warn
+[WARN ] 2022-01-13 20:59:57 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysLogMapper' and 'com.example.myproject.mapper.aoplog.SysLogMapper' mapperInterface. Bean already defined with the same name!
+[WARN ] 2022-01-13 20:59:57 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'jonMapper' and 'com.example.myproject.mapper.jonMapper' mapperInterface. Bean already defined with the same name!
+[WARN ] 2022-01-13 20:59:57 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.myproject.mapper]' package. Please check your configuration.
