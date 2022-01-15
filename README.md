@@ -9,9 +9,9 @@ This is a project to be used for learning. Keep fighting
 
 git pull
 
- git add .
+git add .
  
- git commit -m "update code"
+git commit -m "update code"
 
 git push
 
