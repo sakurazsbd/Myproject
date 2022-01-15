@@ -14,7 +14,7 @@ import java.util.Map;
 public interface jonMapper {
 
     @Select({"SELECT COUNT(*) FROM test_info.personal_information"})
-    Integer get();
+    Integer getSumOfPersonalInformation();
 
     @Select({"SELECT* FROM test_info.task_info"})
     List<Map<String, String>> selectTaskInfo();

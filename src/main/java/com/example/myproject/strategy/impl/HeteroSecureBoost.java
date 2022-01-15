@@ -22,11 +22,7 @@ public class HeteroSecureBoost implements AlgorithmStrategy {
         String restult1 = "This is ";
         String restult2 = "HeteroSecureBoost";
 
-        System.out.println(jonMapper.get());
-
-
         return new String[]{restult1, restult2};
-
     }
 
 }

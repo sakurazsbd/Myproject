@@ -1,0 +1,1115 @@
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 16892 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6767 ms
+[INFO ] 2022-01-15 13:13:22 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:13:22 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 13:13:22 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 13:13:22 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 13:13:22 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 13:13:22 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 13:13:22 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 16.548 seconds (JVM running for 24.403)
+[INFO ] 2022-01-15 13:13:22 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:13:22 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:13:22 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 12432 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11917 ms
+[INFO ] 2022-01-15 13:24:59 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:24:59 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 13:24:59 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 13:24:59 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 13:24:59 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 13:24:59 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 13:24:59 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 26.57 seconds (JVM running for 42.425)
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 19544 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3991 ms
+[INFO ] 2022-01-15 13:26:08 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:26:08 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 13:26:08 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 13:26:08 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 13:26:08 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 13:26:08 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 13:26:08 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 8.32 seconds (JVM running for 14.749)
+[INFO ] 2022-01-15 13:26:08 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:26:08 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:26:08 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 14352 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3641 ms
+[INFO ] 2022-01-15 13:35:34 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 13:35:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 13:35:34 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 13:35:34 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 13:35:34 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 13:35:34 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 13:35:34 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 8.959 seconds (JVM running for 13.55)
+[INFO ] 2022-01-15 13:35:34 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:35:34 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 13:35:34 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 22292 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3067 ms
+[INFO ] 2022-01-15 14:06:04 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:06:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:06:04 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:06:04 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:06:04 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:06:04 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:06:04 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.549 seconds (JVM running for 10.189)
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 2356 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6700 ms
+[INFO ] 2022-01-15 14:09:43 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:09:43 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:09:43 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:09:43 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:09:43 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:09:43 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:09:43 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 11.385 seconds (JVM running for 16.729)
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 19804 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4389 ms
+[INFO ] 2022-01-15 14:10:19 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:10:19 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:10:19 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:10:19 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:10:19 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:10:19 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:10:19 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 9.515 seconds (JVM running for 14.456)
+[INFO ] 2022-01-15 14:10:19 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:10:19 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:10:19 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 19696 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3126 ms
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:13:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:13:09 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:13:09 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:13:09 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:13:09 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:13:09 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.068 seconds (JVM running for 11.088)
+[INFO ] 2022-01-15 14:13:09 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:13:09 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:13:09 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 24096 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2992 ms
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:16:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:16:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:16:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:16:35 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:16:35 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:16:35 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.579 seconds (JVM running for 9.975)
+[INFO ] 2022-01-15 14:16:35 [http-nio-9099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:16:35 [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:16:35 [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 17360 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7206 ms
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:18:20 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:18:20 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:18:20 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:18:20 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:18:20 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:18:20 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 11.149 seconds (JVM running for 16.684)
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 17660 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3331 ms
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:18:53 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:18:53 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:18:53 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:18:53 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:18:53 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:18:53 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.902 seconds (JVM running for 10.914)
+[INFO ] 2022-01-15 14:18:53 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:18:53 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:18:53 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 23160 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2983 ms
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:26:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:26:07 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:26:07 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:26:07 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:26:07 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:26:07 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:26:07 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+[INFO ] 2022-01-15 14:26:07 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:26:07 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 8.821 seconds (JVM running for 13.352)
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 24356 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3101 ms
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:27:18 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:27:18 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:27:18 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:27:18 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:27:18 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:27:18 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.389 seconds (JVM running for 9.887)
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 14576 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3742 ms
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:27:50 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:27:50 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:27:50 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:27:50 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:27:50 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:27:50 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 11.76 seconds (JVM running for 15.728)
+[INFO ] 2022-01-15 14:27:50 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:27:50 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:27:50 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 25288 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7912 ms
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:28:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:28:54 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:28:54 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:28:54 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:28:54 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:28:54 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 12.72 seconds (JVM running for 21.185)
+[INFO ] 2022-01-15 14:28:54 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:28:54 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:28:54 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 252 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9910 ms
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:30:07 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:30:07 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:30:07 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:30:07 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:30:07 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:30:07 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 15.949 seconds (JVM running for 20.646)
+[INFO ] 2022-01-15 14:30:07 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:30:07 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:30:07 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 23956 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2967 ms
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:34:04 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:34:04 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:34:04 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:34:04 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:34:04 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:34:04 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.614 seconds (JVM running for 10.231)
+[INFO ] 2022-01-15 14:34:04 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:34:04 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:34:04 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 20016 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3853 ms
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:36:09 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:36:09 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:36:09 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:36:09 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:36:09 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:36:09 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.867 seconds (JVM running for 11.786)
+[INFO ] 2022-01-15 14:36:09 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:36:09 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:36:09 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 20356 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2837 ms
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:38:39 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:38:39 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:38:39 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:38:39 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:38:39 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:38:39 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.81 seconds (JVM running for 10.542)
+[INFO ] 2022-01-15 14:38:39 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:38:39 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:38:39 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 23940 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2956 ms
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:39:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:39:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:39:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:39:35 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:39:35 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:39:35 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.934 seconds (JVM running for 10.949)
+[INFO ] 2022-01-15 14:39:35 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:39:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:39:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 20516 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3071 ms
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:40:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:40:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:40:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:40:35 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:40:35 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:40:35 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.913 seconds (JVM running for 11.517)
+[INFO ] 2022-01-15 14:40:35 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:40:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:40:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 2076 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3131 ms
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:42:34 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:42:34 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:42:34 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:42:34 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:42:34 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:42:34 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.746 seconds (JVM running for 11.937)
+[INFO ] 2022-01-15 14:42:34 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:42:34 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:42:34 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 24780 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2733 ms
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:49:29 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:49:29 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:49:29 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:49:29 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:49:29 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:49:29 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.643 seconds (JVM running for 11.658)
+[INFO ] 2022-01-15 14:49:29 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:49:29 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:49:29 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 21440 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3733 ms
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 14:55:23 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 14:55:23 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 14:55:23 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 14:55:23 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 14:55:23 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 14:55:23 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 9.604 seconds (JVM running for 16.157)
+[INFO ] 2022-01-15 14:55:23 [http-nio-9099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:55:23 [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 14:55:23 [http-nio-9099-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 4792 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5969 ms
+[INFO ] 2022-01-15 15:01:35 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:01:35 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:01:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:01:35 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:01:35 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:01:35 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 15:01:35 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 13.73 seconds (JVM running for 19.822)
+[INFO ] 2022-01-15 15:01:35 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:01:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:01:35 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 13628 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2947 ms
+[INFO ] 2022-01-15 15:04:03 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:04:03 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:04:03 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:04:03 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:04:03 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:04:03 [restartedMain] s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: adduser1UsingPOST_1
+[INFO ] 2022-01-15 15:04:03 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.232 seconds (JVM running for 14.534)
+[INFO ] 2022-01-15 15:04:03 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:04:03 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:04:03 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 22988 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4254 ms
+[INFO ] 2022-01-15 15:14:24 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:14:24 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:14:24 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:14:24 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:14:24 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:14:24 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 8.459 seconds (JVM running for 16.221)
+[INFO ] 2022-01-15 15:14:24 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:14:24 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:14:24 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-01-15 15:14:24 [http-nio-9099-exec-10] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2022-01-15 15:14:24 [http-nio-9099-exec-10] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2022-01-15 15:14:24 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2022-01-15 15:14:24 [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 21092 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2769 ms
+[INFO ] 2022-01-15 15:20:06 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:20:06 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:20:06 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:20:06 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:20:06 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:20:06 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 6.106 seconds (JVM running for 9.686)
+[INFO ] 2022-01-15 15:20:06 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:20:06 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:20:06 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 16080 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2948 ms
+[INFO ] 2022-01-15 15:22:42 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:22:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:22:42 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:22:42 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:22:42 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:22:42 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:22:42 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:22:42 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[INFO ] 2022-01-15 15:22:42 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.052 seconds (JVM running for 11.522)
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 1516 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3482 ms
+[INFO ] 2022-01-15 15:23:30 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:23:30 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:23:30 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:23:30 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:23:30 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:23:30 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 7.139 seconds (JVM running for 12.323)
+[INFO ] 2022-01-15 15:23:30 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:23:30 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:23:30 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 22412 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4347 ms
+[INFO ] 2022-01-15 15:25:42 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:25:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:25:42 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:25:42 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:25:42 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:25:42 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 8.813 seconds (JVM running for 13.709)
+[INFO ] 2022-01-15 15:25:42 [http-nio-9099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:25:42 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-15 15:25:42 [http-nio-9099-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.e.myproject.MyprojectApplication - Starting MyprojectApplication using Java 1.8.0_191 on Lenovo-PC with PID 17864 (E:\workspace\gitPullDir\Myproject\target\classes started by 李小林 in E:\workspace\gitPullDir\Myproject)
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.e.myproject.MyprojectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [test.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9099 (http)
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4325 ms
+[INFO ] 2022-01-15 15:29:30 [restartedMain] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9099"]
+[INFO ] 2022-01-15 15:29:30 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9099 (http) with context path ''
+[INFO ] 2022-01-15 15:29:30 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2022-01-15 15:29:30 [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2022-01-15 15:29:30 [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2022-01-15 15:29:30 [restartedMain] c.e.myproject.MyprojectApplication - Started MyprojectApplication in 9.532 seconds (JVM running for 16.189)

@@ -28,8 +28,8 @@ public class OpService {
     FactoryForCreatejob factoryForCreatejob;
 
 
-    public Integer get() {
-        return jonMapper.get();
+    public Integer getSum() {
+        return jonMapper.getSumOfPersonalInformation();
     }
 
     public String[] get1() throws Exception {
